@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.ujianonline.uiquiz.SoalEssayragment"
+    android:padding="40px"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/judulsoal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Soal"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/soal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30px"
+        android:textSize="20sp"
+        android:text="Pertanyataan 1 adalah?"
+
+        />
+    <EditText
+        android:id="@+id/jawabEssay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Jawaban Anda Disini"
+        />
+
+
+</LinearLayout>

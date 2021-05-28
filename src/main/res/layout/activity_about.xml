@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryLight"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="About Me"
+        android:textColor="@color/about"
+        android:textStyle="bold"
+        android:textSize="50dp"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/kev1"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:text="Name"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/background2"/>
+        <TextView
+            android:layout_width="0dp"
+            android:text=":"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:textColor="@color/background2"/>
+        <TextView
+            android:id="@+id/viewNama"
+            android:text="Kevin Martua Aruan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:textColor="@color/background2"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:text="Student ID"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/background2"/>
+        <TextView
+            android:layout_width="0dp"
+            android:text=":"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:textColor="@color/background2"/>
+        <TextView
+            android:id="@+id/viewNim"
+            android:text="11418051"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:textColor="@color/background2"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:text="Birth of Date"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/background2"/>
+        <TextView
+            android:layout_width="0dp"
+            android:text=":"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:textColor="@color/background2"/>
+        <TextView
+            android:id="@+id/viewLahir"
+            android:text="19 Juni 2000"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:textColor="@color/background2"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:text="Address"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/background2"/>
+        <TextView
+            android:layout_width="0dp"
+            android:text=":"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:textColor="@color/background2"/>
+        <TextView
+            android:id="@+id/viewAlamat"
+            android:text="Parluasan, Pematangsiantar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:textColor="@color/background2"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Back"/>
+</LinearLayout>
